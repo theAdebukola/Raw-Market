@@ -1,0 +1,200 @@
+*,
+html{
+    padding: 0%;
+    margin: 0%;
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("./images/woods.jpg");
+    //  filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+.row,
+.col-sm{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+  width: 100%;
+.center{
+    background-color: blanchedalmond;
+    max-width: 50% ;
+    background-size: center;
+    background-position: center;
+    position: absolute;
+    height: 100vh;
+    margin: auto;
+    .form{ 
+      /* Style the form icons */
+      .icon {
+        padding: 15px;
+        background:blanchedalmond;
+        color: grey;
+        min-width: 50px;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 6%;
+      }
+      
+      /* Style the input fields */
+      .input-field {
+        width: 50%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background-color: white;
+      }
+    .gender{
+        margin-left: 20%;
+    }
+    .date{
+        margin-left: 20%;
+    }
+    .btn
+    {
+        margin-left: 30%;
+        color: chocolate;
+        border: 2px solid chocolate;
+    }
+    .btn:hover{
+        background: chocolate;
+        color: blanchedalmond;
+    }
+    }
+        }
+    }
+}
+}
+@media (min-width: 576px) {
+    .col {
+     width: 100%;
+     .center{
+        background-color: blanchedalmond;
+        max-width: 70% !important;
+        background-size: center;
+        background-position: center;
+        position: absolute;
+        height: 100vh;
+        // margin-left: 15% !important;
+        margin-top: 1%;
+        .form{ 
+            /* Style the form icons */
+            .icon {
+              padding: 15px;
+              background:blanchedalmond;
+              color: grey;
+              min-width: 50px;
+              text-align: center;
+              border-radius: 5px;
+              margin-left: 1%;
+              .input-field {
+                width: 50%;
+                padding: 10px;
+                outline: none;
+                border: none;
+                background-color: white;
+              }
+            .gender{
+                margin-left: 1%;
+            }
+            .date{
+                margin-left: 1%;
+            }
+            .btn
+            {
+                margin-left: 3%;
+                color: chocolate;
+                border: 2px solid chocolate;
+            }
+            }
+        }
+    }
+}
+}
+@media (min-width: 360px) {
+    .col {
+     width: 100%;
+     .center{
+        background-color: blanchedalmond;
+        max-width: 95% !important;
+        background-size: center;
+        background-position: center;
+        position: absolute;
+        height: 100vh;
+        // margin-left: 2% !important;
+        margin-top: 1%;
+        .form{ 
+            /* Style the form icons */
+            .icon {
+              padding: 15px;
+              background:blanchedalmond;
+              color: grey;
+              min-width: 50px;
+              text-align: center;
+              border-radius: 5px;
+              margin-left: 1%;
+              .input-field {
+                width: 50%;
+                padding: 10px;
+                outline: none;
+                border: none;
+                background-color: white;
+              }
+            .gender{
+                margin-left: 1%;
+            }
+            .btn
+            {
+                margin-left: 3%;
+                color: chocolate;
+                border: 2px solid chocolate;
+            }
+            }
+        }
+    }
+}
+}
+@media (min-width: 320px) {
+    .col {
+     width: 100%;
+     .center{
+        background-color: blanchedalmond;
+        max-width: 95% !important;
+        background-size: center;
+        background-position: center;
+        position: absolute;
+        height: 100vh;
+        // margin-left: 1% !important;
+        margin-top: 1%;
+        .form{ 
+            /* Style the form icons */
+            .icon {
+              padding: 15px;
+              background:blanchedalmond;
+              color: grey;
+              min-width: 50px;
+              text-align: center;
+              border-radius: 5px;
+              margin-left: 1%;
+              .input-field {
+                width: 50%;
+                padding: 10px;
+                outline: none;
+                border: none;
+                background-color: white;
+              }
+            .gender{
+                margin-left: 1%;
+            }
+            .btn
+            {
+                margin-left: 3%;
+                color: chocolate;
+                border: 2px solid chocolate;
+            }
+            }
+        }
+    }
+}
+}
+

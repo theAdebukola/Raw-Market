@@ -1,0 +1,220 @@
+*,
+html {
+  padding: 0%;
+  margin: 0%;
+}
+* body,
+html body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("./images/woods.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+* body .row,
+* body .col-sm,
+html body .row,
+html body .col-sm {
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  width: 100%;
+}
+* body .row .center,
+* body .col-sm .center,
+html body .row .center,
+html body .col-sm .center {
+  background-color: blanchedalmond;
+  max-width: 50%;
+  background-size: center;
+  background-position: center;
+  position: absolute;
+  height: 100vh;
+  margin: auto;
+}
+* body .row .center .form,
+* body .col-sm .center .form,
+html body .row .center .form,
+html body .col-sm .center .form {
+  /* Style the form icons */
+  /* Style the input fields */
+}
+* body .row .center .form .icon,
+* body .col-sm .center .form .icon,
+html body .row .center .form .icon,
+html body .col-sm .center .form .icon {
+  padding: 15px;
+  background: blanchedalmond;
+  color: grey;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 6%;
+}
+* body .row .center .form .input-field,
+* body .col-sm .center .form .input-field,
+html body .row .center .form .input-field,
+html body .col-sm .center .form .input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+* body .row .center .form .gender,
+* body .col-sm .center .form .gender,
+html body .row .center .form .gender,
+html body .col-sm .center .form .gender {
+  margin-left: 20%;
+}
+* body .row .center .form .date,
+* body .col-sm .center .form .date,
+html body .row .center .form .date,
+html body .col-sm .center .form .date {
+  margin-left: 20%;
+}
+* body .row .center .form .btn,
+* body .col-sm .center .form .btn,
+html body .row .center .form .btn,
+html body .col-sm .center .form .btn {
+  margin-left: 30%;
+  color: chocolate;
+  border: 2px solid chocolate;
+}
+* body .row .center .form .btn:hover,
+* body .col-sm .center .form .btn:hover,
+html body .row .center .form .btn:hover,
+html body .col-sm .center .form .btn:hover {
+  background: chocolate;
+  color: blanchedalmond;
+}
+
+@media (min-width: 576px) {
+  .col {
+    width: 100%;
+  }
+  .col .center {
+    background-color: blanchedalmond;
+    max-width: 70% !important;
+    background-size: center;
+    background-position: center;
+    position: absolute;
+    height: 100vh;
+    margin-top: 1%;
+  }
+  .col .center .form {
+    /* Style the form icons */
+  }
+  .col .center .form .icon {
+    padding: 15px;
+    background: blanchedalmond;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1%;
+  }
+  .col .center .form .icon .input-field {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .col .center .form .icon .gender {
+    margin-left: 1%;
+  }
+  .col .center .form .icon .date {
+    margin-left: 1%;
+  }
+  .col .center .form .icon .btn {
+    margin-left: 3%;
+    color: chocolate;
+    border: 2px solid chocolate;
+  }
+}
+@media (min-width: 360px) {
+  .col {
+    width: 100%;
+  }
+  .col .center {
+    background-color: blanchedalmond;
+    max-width: 95% !important;
+    background-size: center;
+    background-position: center;
+    position: absolute;
+    height: 100vh;
+    margin-top: 1%;
+  }
+  .col .center .form {
+    /* Style the form icons */
+  }
+  .col .center .form .icon {
+    padding: 15px;
+    background: blanchedalmond;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1%;
+  }
+  .col .center .form .icon .input-field {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .col .center .form .icon .gender {
+    margin-left: 1%;
+  }
+  .col .center .form .icon .btn {
+    margin-left: 3%;
+    color: chocolate;
+    border: 2px solid chocolate;
+  }
+}
+@media (min-width: 320px) {
+  .col {
+    width: 100%;
+  }
+  .col .center {
+    background-color: blanchedalmond;
+    max-width: 95% !important;
+    background-size: center;
+    background-position: center;
+    position: absolute;
+    height: 100vh;
+    margin-top: 1%;
+  }
+  .col .center .form {
+    /* Style the form icons */
+  }
+  .col .center .form .icon {
+    padding: 15px;
+    background: blanchedalmond;
+    color: grey;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1%;
+  }
+  .col .center .form .icon .input-field {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  .col .center .form .icon .gender {
+    margin-left: 1%;
+  }
+  .col .center .form .icon .btn {
+    margin-left: 3%;
+    color: chocolate;
+    border: 2px solid chocolate;
+  }
+}
+
+/*# sourceMappingURL=busy.css.map */
